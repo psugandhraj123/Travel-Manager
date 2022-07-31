@@ -1,17 +1,18 @@
-import { initializeApp } from "firebase/app"
-import { getFirestore } from 'firebase/firestore'
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD5Kj7NU256TKVncdOCy_TELSmdRrEAH4c",
-  authDomain: "task-manager-1e712.firebaseapp.com",
-  projectId: "task-manager-1e712",
-  storageBucket: "task-manager-1e712.appspot.com",
-  messagingSenderId: "935257286219",
-  appId: "1:935257286219:web:d88cfe3837e8e9a4e2cfce"
+  apiKey: "AIzaSyDP1SLKa64ELiMlSJiIhHSsBZB4QY_C0eE",
+  authDomain: "travel-f11bb.firebaseapp.com",
+  projectId: "travel-f11bb",
+  storageBucket: "travel-f11bb.appspot.com",
+  messagingSenderId: "925994261191",
+  appId: "1:925994261191:web:875304355917794536fce2",
+  measurementId: "G-ZVTLYWM7SQ",
 };
 
 // Initialize Firebase and Firestore
-const app = initializeApp(firebaseConfig)
-const db = getFirestore(app)
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
 
-export {db}
+export { db };
